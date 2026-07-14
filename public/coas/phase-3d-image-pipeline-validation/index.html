@@ -67,12 +67,38 @@
           max-width: 1280px;
         }
       }
+
+      :root,
+      body {
+        background: #fff;
+      }
+      main {
+        width: 100%;
+        max-width: 1280px;
+        padding-bottom: 0.45rem;
+      }
+      .document {
+        gap: 0.35rem;
+        background: #f3f3f3;
+      }
+      .actions {
+        margin: 0.45rem auto 0;
+        padding-inline: 0.65rem;
+      }
+      @media (min-width: 780px) {
+        main {
+          padding-bottom: 0.75rem;
+        }
+      }
+
     </style>
   </head>
   <body>
     <main>
       <section class="document" aria-label="Sanitized COA preview">
-        <img src="page-1.png" alt="Phase 3D Image Pipeline Validation Certificate of Analysis" />
+        <img src="page-1.png" alt="Phase 3D Image Pipeline Validation Certificate of Analysis page 1" />
+        <img src="page-2.png" alt="Phase 3D Image Pipeline Validation Certificate of Analysis page 2" />
+        <img src="page-3.png" alt="Phase 3D Image Pipeline Validation Certificate of Analysis page 3" />
       </section>
       <section class="actions">
         <a class="button" href="../phase-3d-image-pipeline-validation.pdf" download>Download PDF</a>
